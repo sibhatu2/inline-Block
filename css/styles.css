@@ -1,0 +1,26 @@
+.gallery{
+    text-align: center
+}
+.image-container{
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+.image-container impg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.image-container:hover{transform: scale(1.1);box-shadow: 0 4px rgb(0, 0, 0, 0.2);}
+.gallery{
+    font-size: 0;
+}
+.image-container{
+    font-size: 16px;
+}
